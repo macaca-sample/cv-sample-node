@@ -1,0 +1,28 @@
+{
+  "name": "cv-sample-node",
+  "version": "0.1.0",
+  "description": "cv-sample-node",
+  "keywords": [
+    "cv",
+    "macaca"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macaca-sample/cv-sample-node.git"
+  },
+  "dependencies": {
+    "nodecv": "^1.0.0"
+  },
+  "devDependencies": {
+    "jshint": "*",
+    "pre-commit": "1.1.1"
+  },
+  "scripts": {
+    "test": "make test",
+    "jshint": "make jshint"
+  },
+  "pre-commit": [
+    "jshint"
+  ],
+  "license": "MIT"
+}
