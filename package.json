@@ -11,7 +11,9 @@
     "url": "git://github.com/macaca-sample/cv-sample-node.git"
   },
   "dependencies": {
-    "nodecv": "^1.0.0"
+    "macaca-wd": "^1.0.16",
+    "nodecv": "^1.0.0",
+    "request": "^2.81.0"
   },
   "devDependencies": {
     "jshint": "*",

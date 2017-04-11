@@ -4,9 +4,9 @@ const fs = require('fs');
 const path = require('path');
 const nodecv = require('nodecv');
 
-/*
 const image1Path = path.join(__dirname, 'fixture', 'logo.png');
 const image2Path = path.join(__dirname, 'fixture', 'T-Shirt.jpg');
+
 nodecv.imread(image1Path, (err, image1) => {
   if (err) {
     throw err;
@@ -23,9 +23,9 @@ nodecv.imread(image1Path, (err, image1) => {
     });
   });
 });
-*/
 
-/*
+//////////////////////////////////////////////////////////////////////////
+
 const color = [0, 0, 255];
 const image1Path = path.join(__dirname, 'fixture', 'T-Shirt-logo.jpg');
 const image2Path = path.join(__dirname, 'fixture', 'T-Shirt.jpg');
@@ -46,7 +46,7 @@ nodecv.imread(image2Path, (err, image1) => {
   });
 });
 
-*/
+/////////////////////////////////////////////////////////////////////////////
 
 const color = [0, 0, 255];
 const imagePath = path.join(__dirname, 'fixture', 'T-Shirt.jpg');
