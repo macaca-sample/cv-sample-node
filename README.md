@@ -2,7 +2,7 @@
 
 ## Start NodeCV Server
 
-[usage](//github.com/macaca-sample/nodecv-server#usage)
+[usage](//github.com/macacajs/nodecv-server#usage)
 
 ## License
 
